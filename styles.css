@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'CustomFont-bold';
+    src: url('Inter-Bold.ttf') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'CustomFont-reg';
+    src: url('Inter-Regular.ttf') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'CustomFont-sbold';
+    src: url('Inter-SemiBold.ttf') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+body {
+   background-color: hsl(0, 0%, 8%);
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   display: flex;
+  }
+  
+  .profile {
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .profile-image img {
+    border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  }
+  
+  .profile-name .name {
+    font-size: 30px;
+    font-family: 'CustomFont-bold';
+  color: hsl(0, 0%, 100%);
+ margin: 10px 0;
+  }
+  
+  .profile-name .address {
+    color: hsl(75, 94%, 57%);
+    font-family: 'CustomFont-sbold';
+    
+    
+  }
+  
+  .role {
+    color: hsl(0, 0%, 100%);
+    margin: 10px 0;
+    font-family: 'CustomFont-reg';
+    
+  }
+  
+  .social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+  .social-links a {
+    display: block;
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    margin:  0;
+    padding: 10px;
+    border: 40px;
+    background: #333;
+    border-radius: 5px;
+    font-family: 'CustomFont-sbold';
+  }
+  
+  .social-links a:hover {
+    background: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+  }
